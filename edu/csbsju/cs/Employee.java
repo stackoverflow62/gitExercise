@@ -35,12 +35,13 @@ public class Employee
     return name + salary + hireDay; 
    }
 
+
    public void raiseSalary(double byAbsoluteValue)
    {
       double raise = salary + byAbsoluteValue;
-      salary += raise;
    }
 
+  
    private String name;
    private double salary;
    private Date hireDay;
